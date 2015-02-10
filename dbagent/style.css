@@ -1,0 +1,97 @@
+﻿body{
+    background-color: #C8C8D2;
+
+    font-family: "Times New Roman",arial;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a: hover{
+    background-color: #323252;
+}
+
+div#header_title{
+    width: 100%;
+    background-color: #323232;
+    padding:  1%;
+    letter-spacing: 1px;
+    border-bottom: 4px solid white;
+
+}
+
+span#title1{
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+span#title2{
+    color: #832F20;
+    font-size: 300%;
+    font-weight: bold;
+
+
+}
+
+span#description{
+    display: block;
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 3px;
+
+}
+
+div.description_login_boxes{
+    width: 20%;
+    min-height: 45%;
+    margin: 5% 5% 5% 5%;
+    padding: 2%;
+    background-color: #832F20;
+    color: white;
+    float: left;
+}
+
+
+div.description_login_boxes:hover{
+    cursor: pointer;
+    background-color: #CD362B;
+}
+
+div.description_login_boxes p.description_login_titles{
+    border-bottom: 2px solid black;
+    padding-bottom: 1%;
+}
+
+#bottominfo{
+    padding: 10px;
+    color: #00781E;
+    position: fixed;
+    right: 5px;
+    bottom: 6px;
+    float: left;
+}
+
+div#tos_declar{
+    width: 140px;
+    padding: 3px;
+    color: white;
+    border: 1px dotted white;    
+    background:  #832F20;
+
+
+
+}
+
